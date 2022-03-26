@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ADF-Df-XHH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Agregar Bebé-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="MyBabyRegisterViewController" customModule="AprolamApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_bebe" translatesAutoresizingMaskIntoConstraints="NO" id="A4r-dj-JmB">
+                                <rect key="frame" x="0.0" y="100" width="414" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DdP-1L-CGA">
+                                <rect key="frame" x="40" y="276" width="334" height="45.5"/>
+                                <color key="backgroundColor" red="0.98613516115320499" green="0.98960137086490374" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoM-A0-XEb">
+                                <rect key="frame" x="90" y="507" width="84" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Niña" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="girlButton" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ndb-Jx-gbJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqt-Oe-N27">
+                                <rect key="frame" x="239" y="507" width="85" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Niño">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="boyButton" destination="Y6W-OH-hqX" eventType="touchUpInside" id="cII-GT-Dgq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Of2-m4-Vi8">
+                                <rect key="frame" x="16" y="662" width="170" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="QJ7-SX-5rB"/>
+                                    <constraint firstAttribute="height" constant="50" id="yEY-xJ-pOg"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Limpiar">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cleanButton" destination="Y6W-OH-hqX" eventType="touchUpInside" id="2hS-Wk-mZV"/>
+                                    <action selector="cleanButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="SSa-5C-BSB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPM-qJ-7bn">
+                                <rect key="frame" x="228" y="662" width="170" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="aJ6-C5-CrU"/>
+                                    <constraint firstAttribute="height" constant="50" id="fHE-z1-Bg7"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Guardar">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseBackgroundColor" red="0.17115021658913251" green="0.64084119516320159" blue="0.73011699003331798" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="saveButton" destination="Y6W-OH-hqX" eventType="touchUpInside" id="9aW-Uc-Etu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcl-Pq-1tX">
+                                <rect key="frame" x="40" y="387" width="334" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Subir Foto">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="sharePhotoButton" destination="Y6W-OH-hqX" eventType="touchUpInside" id="tIV-Ga-Ti8"/>
+                                </connections>
+                            </button>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nacimiento" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Dm-Kj-sEh">
+                                <rect key="frame" x="40" y="331.5" width="334" height="45.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="DdP-1L-CGA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="075-XQ-wdh"/>
+                            <constraint firstItem="8Dm-Kj-sEh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="1r2-mX-VgT"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="nqt-Oe-N27" secondAttribute="trailing" constant="90" id="9bH-81-3JP"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="XPM-qJ-7bn" secondAttribute="bottom" constant="150" id="9za-KJ-u1n"/>
+                            <constraint firstItem="Of2-m4-Vi8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="AAB-de-W85"/>
+                            <constraint firstItem="nqt-Oe-N27" firstAttribute="top" secondItem="Lcl-Pq-1tX" secondAttribute="bottom" constant="70" id="BQ9-0v-IV8"/>
+                            <constraint firstItem="qoM-A0-XEb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="90" id="Mew-Jl-5n1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Of2-m4-Vi8" secondAttribute="bottom" constant="150" id="V6a-Hf-zXQ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DdP-1L-CGA" secondAttribute="trailing" constant="40" id="WiL-Wm-hHP"/>
+                            <constraint firstItem="Lcl-Pq-1tX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="dl4-2j-U5u"/>
+                            <constraint firstItem="8Dm-Kj-sEh" firstAttribute="top" secondItem="DdP-1L-CGA" secondAttribute="bottom" constant="10" id="hhQ-ZD-T3V"/>
+                            <constraint firstItem="XPM-qJ-7bn" firstAttribute="top" secondItem="nqt-Oe-N27" secondAttribute="bottom" constant="105" id="nkh-pF-LV7"/>
+                            <constraint firstItem="Of2-m4-Vi8" firstAttribute="top" secondItem="qoM-A0-XEb" secondAttribute="bottom" constant="105" id="oo1-jl-CRO"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Lcl-Pq-1tX" secondAttribute="trailing" constant="40" id="p0v-zK-6WF"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="XPM-qJ-7bn" secondAttribute="trailing" constant="16" id="qfe-fd-b7d"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8Dm-Kj-sEh" secondAttribute="trailing" constant="40" id="sVz-8S-H0b"/>
+                            <constraint firstItem="qoM-A0-XEb" firstAttribute="top" secondItem="Lcl-Pq-1tX" secondAttribute="bottom" constant="70" id="yav-xt-dfG"/>
+                            <constraint firstItem="Lcl-Pq-1tX" firstAttribute="top" secondItem="8Dm-Kj-sEh" secondAttribute="bottom" constant="10" id="ydq-r3-yNN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Agregar Bebé" leftItemsSupplementBackButton="YES" id="FnB-i3-bmk">
+                        <barButtonItem key="backBarButtonItem" title="Inicio" id="6cH-tz-1HH"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bornTextField" destination="8Dm-Kj-sEh" id="g31-yK-Dsn"/>
+                        <outlet property="nameTextField" destination="DdP-1L-CGA" id="rfs-Fe-nD4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1097.1014492753625" y="-13.392857142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pw7-AN-lNo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ADF-Df-XHH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B20-dS-0on">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="orC-jv-98r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="186.95652173913044" y="-13.392857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avatar_bebe" width="145" height="145"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

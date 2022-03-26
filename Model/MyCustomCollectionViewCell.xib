@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="myCell" id="gTV-IL-0wX" customClass="MyCustomCollectionViewCell" customModule="AprolamApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NsT-8B-8NX">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mibebe" translatesAutoresizingMaskIntoConstraints="NO" id="lsT-AN-JCw">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="132"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mi Bebé " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmy-at-Nax">
+                                <rect key="frame" x="16" y="132" width="128" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="cee-dV-y4f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xmy-at-Nax" secondAttribute="trailing" constant="16" id="456-gN-llz"/>
+                            <constraint firstItem="xmy-at-Nax" firstAttribute="top" secondItem="lsT-AN-JCw" secondAttribute="bottom" id="B1i-vz-A0R"/>
+                            <constraint firstItem="xmy-at-Nax" firstAttribute="centerX" secondItem="NsT-8B-8NX" secondAttribute="centerX" id="Faf-xZ-Fdn"/>
+                            <constraint firstAttribute="trailing" secondItem="xmy-at-Nax" secondAttribute="trailing" constant="16" id="IaF-FN-pHo"/>
+                            <constraint firstItem="xmy-at-Nax" firstAttribute="leading" secondItem="NsT-8B-8NX" secondAttribute="leading" constant="16" id="IzH-ZZ-pZt"/>
+                            <constraint firstItem="lsT-AN-JCw" firstAttribute="leading" secondItem="NsT-8B-8NX" secondAttribute="leading" id="MaG-g3-H7o"/>
+                            <constraint firstAttribute="bottom" secondItem="xmy-at-Nax" secondAttribute="bottom" constant="8" id="WrD-ug-cgg"/>
+                            <constraint firstAttribute="trailing" secondItem="lsT-AN-JCw" secondAttribute="trailing" id="X7L-hk-SDV"/>
+                            <constraint firstItem="lsT-AN-JCw" firstAttribute="top" secondItem="NsT-8B-8NX" secondAttribute="top" id="hcc-D6-Ll3"/>
+                            <constraint firstItem="lsT-AN-JCw" firstAttribute="centerX" secondItem="NsT-8B-8NX" secondAttribute="centerX" id="zcy-vf-ZdZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NsT-8B-8NX" secondAttribute="bottom" id="hm2-8c-jSJ"/>
+                <constraint firstAttribute="trailing" secondItem="NsT-8B-8NX" secondAttribute="trailing" id="w62-I4-eY3"/>
+                <constraint firstItem="NsT-8B-8NX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xYu-rY-xzW"/>
+                <constraint firstItem="NsT-8B-8NX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zBl-7f-JAW"/>
+            </constraints>
+            <size key="customSize" width="517" height="270"/>
+            <connections>
+                <outlet property="myFirstLabel" destination="xmy-at-Nax" id="KJY-Wy-IDe"/>
+                <outlet property="myImage" destination="lsT-AN-JCw" id="fof-k1-Awe"/>
+            </connections>
+            <point key="canvasLocation" x="393.47826086956525" y="53.571428571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="mibebe" width="179" height="179"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

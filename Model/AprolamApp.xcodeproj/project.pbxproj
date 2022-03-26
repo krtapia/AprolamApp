@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F190EA8E27EBD8C8002187BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EA8D27EBD8C8002187BD /* AppDelegate.swift */; };
+		F190EA9027EBD8C8002187BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EA8F27EBD8C8002187BD /* SceneDelegate.swift */; };
+		F190EA9227EBD8C8002187BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EA9127EBD8C8002187BD /* HomeViewController.swift */; };
+		F190EA9827EBD8C8002187BD /* AprolamApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F190EA9627EBD8C8002187BD /* AprolamApp.xcdatamodeld */; };
+		F190EA9A27EBD8CA002187BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F190EA9927EBD8CA002187BD /* Assets.xcassets */; };
+		F190EA9D27EBD8CA002187BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F190EA9B27EBD8CA002187BD /* LaunchScreen.storyboard */; };
+		F190EAA627EBDBD1002187BD /* ElementoLista+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EAA427EBDBD1002187BD /* ElementoLista+CoreDataClass.swift */; };
+		F190EAA727EBDBD1002187BD /* ElementoLista+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EAA527EBDBD1002187BD /* ElementoLista+CoreDataProperties.swift */; };
+		F190EAAC27EBF5FC002187BD /* MyCustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F190EAAA27EBF5FC002187BD /* MyCustomCollectionViewCell.xib */; };
+		F1E9723F27ED39F600B37460 /* MyBabyRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9723D27ED39F600B37460 /* MyBabyRegisterViewController.swift */; };
+		F1E9724227ED3A6100B37460 /* MyBabyRegisterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E9724127ED3A6100B37460 /* MyBabyRegisterStoryboard.storyboard */; };
+		F1E9724527ED89B300B37460 /* CollectionViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9724427ED89B300B37460 /* CollectionViewCellModel.swift */; };
+		F1E9724727EE323700B37460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E9724627EE323700B37460 /* Main.storyboard */; };
+		F1E9724927EE553100B37460 /* MyCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9724827EE553100B37460 /* MyCustomCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F190EA8A27EBD8C8002187BD /* AprolamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprolamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F190EA8D27EBD8C8002187BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F190EA8F27EBD8C8002187BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F190EA9127EBD8C8002187BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F190EA9727EBD8C8002187BD /* AprolamApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AprolamApp.xcdatamodel; sourceTree = "<group>"; };
+		F190EA9927EBD8CA002187BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F190EA9C27EBD8CA002187BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F190EA9E27EBD8CA002187BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F190EAA427EBDBD1002187BD /* ElementoLista+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ElementoLista+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F190EAA527EBDBD1002187BD /* ElementoLista+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ElementoLista+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F190EAAA27EBF5FC002187BD /* MyCustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		F1E9723D27ED39F600B37460 /* MyBabyRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBabyRegisterViewController.swift; sourceTree = "<group>"; };
+		F1E9724127ED3A6100B37460 /* MyBabyRegisterStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyBabyRegisterStoryboard.storyboard; sourceTree = "<group>"; };
+		F1E9724427ED89B300B37460 /* CollectionViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellModel.swift; sourceTree = "<group>"; };
+		F1E9724627EE323700B37460 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F1E9724827EE553100B37460 /* MyCustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F190EA8727EBD8C8002187BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F190EA8127EBD8C8002187BD = {
+			isa = PBXGroup;
+			children = (
+				F190EA8C27EBD8C8002187BD /* AprolamApp */,
+				F190EA8B27EBD8C8002187BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F190EA8B27EBD8C8002187BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F190EA8A27EBD8C8002187BD /* AprolamApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F190EA8C27EBD8C8002187BD /* AprolamApp */ = {
+			isa = PBXGroup;
+			children = (
+				F190EAA827EBDCAD002187BD /* Model */,
+				F190EA8D27EBD8C8002187BD /* AppDelegate.swift */,
+				F190EA8F27EBD8C8002187BD /* SceneDelegate.swift */,
+				F190EA9127EBD8C8002187BD /* HomeViewController.swift */,
+				F1E9724627EE323700B37460 /* Main.storyboard */,
+				F190EA9B27EBD8CA002187BD /* LaunchScreen.storyboard */,
+				F190EA9927EBD8CA002187BD /* Assets.xcassets */,
+				F190EA9E27EBD8CA002187BD /* Info.plist */,
+				F190EA9627EBD8C8002187BD /* AprolamApp.xcdatamodeld */,
+				F190EAAA27EBF5FC002187BD /* MyCustomCollectionViewCell.xib */,
+				F1E9724827EE553100B37460 /* MyCustomCollectionViewCell.swift */,
+				F1E9723D27ED39F600B37460 /* MyBabyRegisterViewController.swift */,
+				F1E9724127ED3A6100B37460 /* MyBabyRegisterStoryboard.storyboard */,
+			);
+			path = AprolamApp;
+			sourceTree = "<group>";
+		};
+		F190EAA827EBDCAD002187BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F190EAA427EBDBD1002187BD /* ElementoLista+CoreDataClass.swift */,
+				F190EAA527EBDBD1002187BD /* ElementoLista+CoreDataProperties.swift */,
+				F1E9724427ED89B300B37460 /* CollectionViewCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F190EA8927EBD8C8002187BD /* AprolamApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F190EAA127EBD8CA002187BD /* Build configuration list for PBXNativeTarget "AprolamApp" */;
+			buildPhases = (
+				F190EA8627EBD8C8002187BD /* Sources */,
+				F190EA8727EBD8C8002187BD /* Frameworks */,
+				F190EA8827EBD8C8002187BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AprolamApp;
+			productName = AprolamApp;
+			productReference = F190EA8A27EBD8C8002187BD /* AprolamApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F190EA8227EBD8C8002187BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F190EA8927EBD8C8002187BD = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = F190EA8527EBD8C8002187BD /* Build configuration list for PBXProject "AprolamApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F190EA8127EBD8C8002187BD;
+			productRefGroup = F190EA8B27EBD8C8002187BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F190EA8927EBD8C8002187BD /* AprolamApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F190EA8827EBD8C8002187BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F190EA9D27EBD8CA002187BD /* LaunchScreen.storyboard in Resources */,
+				F1E9724727EE323700B37460 /* Main.storyboard in Resources */,
+				F190EA9A27EBD8CA002187BD /* Assets.xcassets in Resources */,
+				F1E9724227ED3A6100B37460 /* MyBabyRegisterStoryboard.storyboard in Resources */,
+				F190EAAC27EBF5FC002187BD /* MyCustomCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F190EA8627EBD8C8002187BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F190EAA727EBDBD1002187BD /* ElementoLista+CoreDataProperties.swift in Sources */,
+				F1E9723F27ED39F600B37460 /* MyBabyRegisterViewController.swift in Sources */,
+				F1E9724527ED89B300B37460 /* CollectionViewCellModel.swift in Sources */,
+				F190EA9827EBD8C8002187BD /* AprolamApp.xcdatamodeld in Sources */,
+				F190EA9227EBD8C8002187BD /* HomeViewController.swift in Sources */,
+				F190EA8E27EBD8C8002187BD /* AppDelegate.swift in Sources */,
+				F190EAA627EBDBD1002187BD /* ElementoLista+CoreDataClass.swift in Sources */,
+				F1E9724927EE553100B37460 /* MyCustomCollectionViewCell.swift in Sources */,
+				F190EA9027EBD8C8002187BD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F190EA9B27EBD8CA002187BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F190EA9C27EBD8CA002187BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F190EA9F27EBD8CA002187BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F190EAA027EBD8CA002187BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F190EAA227EBD8CA002187BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LQC877FJZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AprolamApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlos-Tapia.AprolamApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F190EAA327EBD8CA002187BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LQC877FJZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AprolamApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlos-Tapia.AprolamApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F190EA8527EBD8C8002187BD /* Build configuration list for PBXProject "AprolamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F190EA9F27EBD8CA002187BD /* Debug */,
+				F190EAA027EBD8CA002187BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F190EAA127EBD8CA002187BD /* Build configuration list for PBXNativeTarget "AprolamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F190EAA227EBD8CA002187BD /* Debug */,
+				F190EAA327EBD8CA002187BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F190EA9627EBD8C8002187BD /* AprolamApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F190EA9727EBD8C8002187BD /* AprolamApp.xcdatamodel */,
+			);
+			currentVersion = F190EA9727EBD8C8002187BD /* AprolamApp.xcdatamodel */;
+			path = AprolamApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F190EA8227EBD8C8002187BD /* Project object */;
+}
